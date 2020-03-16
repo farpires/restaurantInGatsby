@@ -51,7 +51,7 @@ const ImagenRestaurante = () => {
           
         <ImageBackground tag="section" fluid={image.sharp.fluid} fadeIn="soft" >
             <TextoImagen>
-                <h1>Bienvenido a resturante gatsby</h1>
+                <h1>Bienvenido a El Rincon de Buscaja</h1>
                 <p>El mejor resturante para tus vacaciones</p>
             </TextoImagen>
 

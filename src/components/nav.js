@@ -30,8 +30,8 @@ const Navegacion = () => {
          <NavLink to={'/'}>Inicio</NavLink>
          <NavLink to={'/nosotros'}>Nosotros</NavLink>
          <NavLink to={'/carta'}>Carta</NavLink>
-         <NavLink to={'/ubicaion'}>ubicacion</NavLink>
-         <NavLink to={'/contacto_y_reserva'}>Contacto y reserva</NavLink>
+         <NavLink to={'/ubicacion'}>ubicacion y contacto</NavLink>
+         {/* <NavLink to={'/contacto_y_reservas'}>Contacto y reserva</NavLink> */}
 
      </Nav>
      );

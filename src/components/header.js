@@ -29,7 +29,7 @@ const Header = () => {
 
                `}
                
-               >Restaurante Gatsby</h1>
+               >El Rincon de Buscaja</h1>
              <Navegacion />
               
            </div>

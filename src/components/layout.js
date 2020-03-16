@@ -10,7 +10,11 @@ const Layout = (props) => {
         styles={css`
         html{
             font-size:62.5%;
-            font-family:  font-family: 'Source Code Pro', sans-serif;
+            /* font-family: 'Source Code Pro', sans-serif; */
+            box-sizing: border-box;
+        }
+        *,*:before,*:after{
+            box-sizing: inherit;
         }
         body {
             font-size:18px;
@@ -41,7 +45,7 @@ const Layout = (props) => {
         `}   
         />
         <Helmet>
-                <title>Gatsby Restaurante</title>
+                <title>El Rincon de Buscaja</title>
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"/>
                 <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Source+Code+Pro:400,700&display=swap" rel="stylesheet"/>
 
