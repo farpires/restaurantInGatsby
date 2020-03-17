@@ -3,7 +3,7 @@ import {graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-// import { Link } from 'gatsby';
+// import {Link} from 'gatsby';
 
 const Contenido = styled.main`
 padding-top:4rem;
@@ -60,10 +60,8 @@ const ContenidoUbicacion = () => {
             fluid={imagen.fluid}
             /></a>
         </Contenido>
-        
-
         </>
      ); 
 }
  
-export default ContenidoUbicacion;
+export default ContenidoUbicacion;   

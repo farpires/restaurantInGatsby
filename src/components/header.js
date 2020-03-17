@@ -1,6 +1,17 @@
 import React from 'react';
 import {css} from '@emotion/core';
-import Navegacion from '../components/nav'
+import styled from '@emotion/styled';
+import {Link} from 'gatsby';
+import Navegacion from '../components/nav';
+
+
+const EnlaceHome = styled(Link)`
+ color: #2a1000;
+ text-align: center;
+ text-decoration: none;
+
+`;
+
 const Header = () => {
     return ( 
        <header
@@ -22,19 +33,14 @@ const Header = () => {
 
            `}
            >
-               <h1
-               css={css`
-               	color: #2a1000;
-                text-align: center;
-
-               `}
-               
-               >El Rincon de Buscaja</h1>
+               <EnlaceHome to='/'>
+               <h1>El Rincon de Buscaja</h1>
+               </EnlaceHome>
              <Navegacion />
-              
+ 
            </div>
        </header>
      );
 }
  
-export default Header;
+export default Header; 

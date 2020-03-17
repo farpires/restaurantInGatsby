@@ -29,12 +29,12 @@ const Navegacion = () => {
      <Nav>
          <NavLink to={'/'}>Inicio</NavLink>
          <NavLink to={'/nosotros'}>Nosotros</NavLink>
-         <NavLink to={'/carta'}>Carta</NavLink>
-         <NavLink to={'/ubicacion'}>ubicacion y contacto</NavLink>
+         {/* <NavLink to={'/carta'}>Carta</NavLink> */}
+         <NavLink to={'/ubicacion'}>Ubicanos</NavLink>
          {/* <NavLink to={'/contacto_y_reservas'}>Contacto y reserva</NavLink> */}
 
      </Nav>
      );
 }
  
-export default Navegacion;
+export default Navegacion; 
