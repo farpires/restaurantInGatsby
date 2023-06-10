@@ -10,7 +10,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-native-fontawesome": "^0.2.2",
-    "gatsby": "^2.19.7",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-emotion": "^4.1.23",
